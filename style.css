@@ -1,0 +1,76 @@
+
+/* Colores principales */
+:root {
+    --color-principal: #1e6fd9;
+    --color-fondo: #f5f7fa;
+    --color-texto: #222222;
+}
+
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--color-fondo);
+    color: var(--color-texto);
+    line-height: 1.6;
+}
+
+/* Cabecera */
+header {
+    background: var(--color-principal);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Menú de navegación */
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Contenido principal */
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Títulos */
+h2 {
+    color: var(--color-principal);
+    border-bottom: 2px solid var(--color-principal);
+}
+
+/* Habilidades */
+.etiquetas {
+    list-style: none;
+    padding: 0;
+}
+
+.etiquetas li {
+    display: inline-block;
+    background: var(--color-principal);
+    color: white;
+    padding: 5px 12px;
+    margin: 4px;
+    border-radius: 15px;
+}
+
+/* Tarjetas de proyectos */
+.tarjeta {
+    background: white;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
